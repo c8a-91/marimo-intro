@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ config.title }}{% endblock %}</title>
+    <link rel="icon" type="image/jpeg" href="{{ get_url(path='favicon.jpg') }}">
+    <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ get_url(path='/') }}" class="site-title">{{ config.title }}</a>
+            <ul>
+                <li><a href="{{ get_url(path='/') }}">Home</a></li>
+                <li><a href="{{ get_url(path='blog') }}">Articles</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2025 {{ config.extra.author }}</p>
+    </footer>
+</body>
+</html>

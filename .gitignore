@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# uv
+uv.lock
+
+# macOS
+.DS_Store
+
+# Zola
+blog/public/
+
+# marimo
+blog/static/notebooks/
+
+# IDE
+.idea/
+.vscode/
+*.swp

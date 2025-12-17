@@ -1,0 +1,16 @@
+base_url = "https://c8a-91.github.io/marimo-intro"
+title = "Tech Blog"
+description = "技術ブログ"
+default_language = "ja"
+compile_sass = true
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+[markdown]
+highlight_code = true
+highlight_theme = "one-dark"
+external_links_target_blank = true
+
+[extra]
+author = "Author"
