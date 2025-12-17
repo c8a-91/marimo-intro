@@ -14,9 +14,6 @@ uv.lock
 # Zola
 blog/public/
 
-# marimo
-blog/static/notebooks/
-
 # IDE
 .idea/
 .vscode/
