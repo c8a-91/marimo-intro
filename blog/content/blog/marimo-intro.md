@@ -47,7 +47,7 @@ filtered = titanic_data[(titanic_data["age"] >= age_min.value) & (titanic_data["
 
 **実際に試してみてください：** 下のスライダーを動かすと、グラフがリアルタイムで更新されます。Jupyter でも同様のことは可能らしいですが、marimo ではコールバック関数を書かずに、変数を参照するだけで実現できます。
 
-<iframe src="/notebooks/demo.html" width="100%" height="500" frameborder="0" style="border: 1px solid #e5e7eb; border-radius: 8px;"></iframe>
+<iframe src="/marimo-intro/notebooks/demo.html" width="100%" height="500" frameborder="0" style="border: 1px solid #e5e7eb; border-radius: 8px;"></iframe>
 
 ### 保存形式・Git
 
